@@ -15,6 +15,11 @@
 		790944601E76C520000F5170 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7909445E1E76C520000F5170 /* LaunchScreen.storyboard */; };
 		7909446B1E76C521000F5170 /* NewGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7909446A1E76C521000F5170 /* NewGameTests.m */; };
 		790944761E76C521000F5170 /* NewGameUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 790944751E76C521000F5170 /* NewGameUITests.m */; };
+		79CA80951E794AAD009388C5 /* butterfly.png in Resources */ = {isa = PBXBuildFile; fileRef = 79CA80941E794AAD009388C5 /* butterfly.png */; };
+		79CA80991E794D05009388C5 /* images (1).jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 79CA80981E794D05009388C5 /* images (1).jpeg */; };
+		79CA809B1E79502E009388C5 /* blue-butterfly-.png in Resources */ = {isa = PBXBuildFile; fileRef = 79CA809A1E79502E009388C5 /* blue-butterfly-.png */; };
+		79CA809F1E7951A4009388C5 /* bttrfly2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 79CA809E1E7951A4009388C5 /* bttrfly2.jpg */; };
+		79D119221E793F9200638142 /* CompletedGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79D119211E793F9200638142 /* CompletedGameViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,12 @@
 		790944711E76C521000F5170 /* NewGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		790944751E76C521000F5170 /* NewGameUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewGameUITests.m; sourceTree = "<group>"; };
 		790944771E76C521000F5170 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79CA80941E794AAD009388C5 /* butterfly.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = butterfly.png; sourceTree = "<group>"; };
+		79CA80981E794D05009388C5 /* images (1).jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "images (1).jpeg"; sourceTree = "<group>"; };
+		79CA809A1E79502E009388C5 /* blue-butterfly-.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blue-butterfly-.png"; sourceTree = "<group>"; };
+		79CA809E1E7951A4009388C5 /* bttrfly2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bttrfly2.jpg; sourceTree = "<group>"; };
+		79D119201E793F9200638142 /* CompletedGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompletedGameViewController.h; sourceTree = "<group>"; };
+		79D119211E793F9200638142 /* CompletedGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompletedGameViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +92,10 @@
 		790944441E76C520000F5170 = {
 			isa = PBXGroup;
 			children = (
+				79CA80981E794D05009388C5 /* images (1).jpeg */,
+				79CA809E1E7951A4009388C5 /* bttrfly2.jpg */,
+				79CA809A1E79502E009388C5 /* blue-butterfly-.png */,
+				79CA80941E794AAD009388C5 /* butterfly.png */,
 				7909444F1E76C520000F5170 /* NewGame */,
 				790944691E76C521000F5170 /* NewGameTests */,
 				790944741E76C521000F5170 /* NewGameUITests */,
@@ -105,6 +120,8 @@
 				790944541E76C520000F5170 /* AppDelegate.m */,
 				790944561E76C520000F5170 /* ViewController.h */,
 				790944571E76C520000F5170 /* ViewController.m */,
+				79D119201E793F9200638142 /* CompletedGameViewController.h */,
+				79D119211E793F9200638142 /* CompletedGameViewController.m */,
 				790944591E76C520000F5170 /* Main.storyboard */,
 				7909445C1E76C520000F5170 /* Assets.xcassets */,
 				7909445E1E76C520000F5170 /* LaunchScreen.storyboard */,
@@ -248,7 +265,11 @@
 			files = (
 				790944601E76C520000F5170 /* LaunchScreen.storyboard in Resources */,
 				7909445D1E76C520000F5170 /* Assets.xcassets in Resources */,
+				79CA809B1E79502E009388C5 /* blue-butterfly-.png in Resources */,
 				7909445B1E76C520000F5170 /* Main.storyboard in Resources */,
+				79CA80991E794D05009388C5 /* images (1).jpeg in Resources */,
+				79CA80951E794AAD009388C5 /* butterfly.png in Resources */,
+				79CA809F1E7951A4009388C5 /* bttrfly2.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +296,7 @@
 			files = (
 				790944581E76C520000F5170 /* ViewController.m in Sources */,
 				790944551E76C520000F5170 /* AppDelegate.m in Sources */,
+				79D119221E793F9200638142 /* CompletedGameViewController.m in Sources */,
 				790944521E76C520000F5170 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -507,6 +529,7 @@
 				7909447C1E76C521000F5170 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7909447D1E76C521000F5170 /* Build configuration list for PBXNativeTarget "NewGameTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +538,7 @@
 				7909447F1E76C521000F5170 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		790944801E76C521000F5170 /* Build configuration list for PBXNativeTarget "NewGameUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +547,7 @@
 				790944821E76C521000F5170 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

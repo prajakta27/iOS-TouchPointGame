@@ -9,7 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
-
-
+{
+    IBOutlet UIImageView *movingImg;
+    IBOutlet UIImageView *touchImg;
+}
 @end
 
