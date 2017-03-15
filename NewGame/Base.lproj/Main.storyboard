@@ -48,11 +48,30 @@
                     <connections>
                         <outlet property="movingImg" destination="AYf-zp-H9i" id="t1x-bd-ddb"/>
                         <outlet property="touchImg" destination="MD4-AT-h8O" id="jxy-n8-VwL"/>
+                        <segue destination="rhd-XG-XiR" kind="presentation" identifier="completedgamevcsegue" id="ZKy-7P-8ml"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="136.80000000000001" y="130.88455772113943"/>
+        </scene>
+        <!--Completed Game View Controller-->
+        <scene sceneID="hWD-B1-E5S">
+            <objects>
+                <viewController id="rhd-XG-XiR" customClass="CompletedGameViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ngP-H1-xew"/>
+                        <viewControllerLayoutGuide type="bottom" id="qZ0-bm-2VK"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="f4c-tY-1LX">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nSd-SZ-lkT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="990" y="-303"/>
         </scene>
     </scenes>
     <resources>
